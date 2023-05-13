@@ -14,14 +14,16 @@ mvn test
 ```
 
 Execute jar file with data.txt as input file:
+```console
 java -jar ./target/familytree-1.0.jar ./data.txt
+```
 
 Excpected output for data.txt:
 Ivan
-  Adam
-    Stjepan
-			Marko
-			Robert
-	Fran
+&nbsp;&nbsp;&nbsp;&nbsp;Adam
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stjepan
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marko
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Robert
+&nbsp;&nbsp;&nbsp;&nbsp;Fran
 Luka
-	Leopold
+&nbsp;&nbsp;&nbsp;&nbsp;Leopold
