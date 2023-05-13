@@ -20,7 +20,7 @@ Execute jar file with data.txt as input file:
 java -jar ./target/familytree-1.0.jar ./data.txt
 ```
 
-Excpected output for data.txt:<br>
+Expected output for data.txt:<br>
 Ivan<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Adam<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stjepan<br>
